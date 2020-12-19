@@ -24,13 +24,15 @@ Transfer the generated `ikev2-vpn.mobileconfig` file to your local computer via 
 
 - **macOS 10.11 El Capitan or later**: Double click the `.mobileconfig` file to start the *profile installation* wizard.
 
+- **ios 14 and macOS 11 ciphers** are supported.
+
 ## Technical Details
 
 Upon container creation, a *shared secret* was generated for authentication purpose, no *certificate*, *username*, or *password* was ever used, simple life!
 
 ## License
 
-Copyright (c) 2018 Mengdi Gao, Nebukad93,  This software is licensed under the [MIT License](LICENSE).
+Copyright (c) 2020 Mengdi Gao, Nebukad93, Flaminigo This software is licensed under the [MIT License](LICENSE).
 
 ---
 
