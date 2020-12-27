@@ -1,9 +1,9 @@
-FROM alpine:3.9
+FROM alpine:latest
 
 ENV HOST HOSTNAME
 
 LABEL tags="latest" \
-      build_ver="24-03-2020"
+      build_ver="DEC-26-2020"
 
 RUN apk -U upgrade \
     && apk add -U --no-cache openssl util-linux strongswan bash \
